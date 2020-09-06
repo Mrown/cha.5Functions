@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Terning og Roulette</title>
+    <style ="type" ="text/css">
+
+      div.terning{
+          float: left;
+          width: 32px;
+          background: #f222f2
+          border: #999 1px solid;
+          padding: 10px;
+          font-size: 30px;
+          text-allign:center;
+          margin: 5px;
+
+      }
+      div.roulette{
+          float: left;
+          width: 32px;
+          background: #f222f2
+          border: #999 1px solid;
+          padding: 10px;
+          font-size: 30px;
+          text-allign:center;
+          margin: 5px;
+
+      }
+    </style>
+
+    <script src="jsfuncs2.js"></script>
+  </head>
+
+  <body>
+    <div id="terning" class="terning">0</div>
+
+    <div id="roulette" class="roulette">0</div>
+
+    <button onclick="Rolldice()">Rul terning og smid kugle i roulette</button>
+    <h2 id="status" style="clear: left"></h2>
+  </body>
+</html>
